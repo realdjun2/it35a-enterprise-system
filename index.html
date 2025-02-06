@@ -20,7 +20,7 @@
                     <ul class="submenu">
                         <li><a href="#users">Users</a></li>
                         <li><a href="#temp-users">Temp Users</a></li>
-                        <li><a href="#total-users">Total Users</a></li>
+                        <li><a href="#total-users">Total number of Users</a></li>
                     </ul>
                 </li>
             </ul>
@@ -28,6 +28,24 @@
         </nav>
         <main class="content">
             <h1>Welcome to the Dashboard</h1>
-            <p>Choose a section from the sidebar.</p>
+            <p></p>
         </main>
+
+    </div>
+    <script>
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            dropdown.addEventListener('click', function() {
+                this.querySelector('.submenu').classList.toggle('show');
+            });
+        });
+
+        // Add smooth sidebar toggle animation
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+            dropdown.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
 
