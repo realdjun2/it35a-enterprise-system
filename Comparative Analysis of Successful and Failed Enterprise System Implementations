@@ -50,3 +50,13 @@ c.1. Company Overview
 Company: Hershey
 
 Reason for Implementation: Hershey, a major chocolate manufacturer, aimed to implement an ERP system to modernize its IT infrastructure, improve supply chain management, and enhance overall operational efficiency.
+
+c.2. Implementation Process & Challenges
+
+Aggressive Timeline: Hershey set an ambitious timeline of 30 months for the ERP implementation, significantly shorter than the recommended 48 months.
+
+Simultaneous Initiatives: The company undertook multiple large-scale projects concurrently, including a new order management system and a transportation management system.
+
+Insufficient Testing: The ERP system was not thoroughly tested before going live, leading to unforeseen issues.
+
+Inadequate Training: Employees were not adequately trained to use the new system, resulting in operational difficulties.
